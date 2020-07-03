@@ -109,9 +109,17 @@ img.slide {
     position: relative; 
     overflow: hidden;
     top: 0; 
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(0,0,0,.1);
     padding: 30px;
 	line-height: 1.8;
+}
+
+.templatemo-content section div p {
+    color: rgba(255, 255, 255,.9);
+}
+
+.templatemo-content section div {
+    color: rgba(255, 255, 255,.9);
 }
 
 
@@ -120,7 +128,7 @@ img.slide {
 }
 
 .templatemo-content h2 {
-    color: #000;
+    color: rgba(255,255,255,.5);
     font-family: 'Raleway', sans-serif;
 }
 
