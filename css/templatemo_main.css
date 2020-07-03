@@ -109,33 +109,31 @@ img.slide {
     position: relative; 
     overflow: hidden;
     top: 0; 
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.5);
     padding: 30px;
 	line-height: 1.8;
 }
 
-.templatemo-content section div p {
-    color: rgba(255, 255, 255,.9);
-}
-
-.templatemo-content section div {
-    color: rgba(255, 255, 255,.9);
-}
-
+/* 'Raleway', sans-serif */
 
 .templatemo-content-wrapper {
     overflow: hidden;
 }
 
 .templatemo-content h2 {
+    color: rgba(255,255,255,.7);
+    font-family: 'Raleway', sans-serif;
+}
+
+.templatemo-content h3 {
     color: rgba(255,255,255,.5);
     font-family: 'Raleway', sans-serif;
 }
 
 .templatemo-content p {
     font-family: 'Raleway', sans-serif;
-    color: #000;
-    font-size: 16px;
+    color: rgba(255, 255, 255);
+    font-size: 18px;
 }
 
 .menu {
